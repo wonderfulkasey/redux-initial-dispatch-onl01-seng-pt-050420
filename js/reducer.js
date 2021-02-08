@@ -1,4 +1,4 @@
-let state = {count: 0};
+let state;
 
 function changeState(state, action){
     switch (action.type) {
